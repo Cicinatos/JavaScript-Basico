@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(206, 206, 24);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Ja me livrei da maldição</p>
+    <script>
+       var n1 = Number(window.prompt('Digite um Número!')) //convertemos uma String para Number pois o resultado de um prompt é String
+       var n2 = Number(window.prompt('Digite outro Número!'))
+       var soma = n1 + n2 //Se aqui não estiver convertido para Number, ele vai concatenar as informações e não somar
+       window.alert('A soma é: ' + soma) //Outra forma é usando o formatador de Strings, ${variavel} que ficaria: window.alert(`A soma é: ${soma}`) usando crase!
+    </script>
+</body>
+</html>
