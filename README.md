@@ -29,7 +29,7 @@
 
  Alerta solicitando uma informação.
 
- ![alerta04](https://user-images.githubusercontent.com/66435215/83955669-c297a680-a82b-11ea-8d31-9ca918911003.png)
+ ![alerta04](https://user-images.githubusercontent.com/66435215/83956082-831f8900-a830-11ea-8e19-1b29a04d6b70.png)
 
  Usando essa informação em outro alerta.
 
